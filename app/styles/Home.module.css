@@ -39,10 +39,11 @@
   cursor: pointer;
   font-size: 18px;
   color: #fff;
+  font-weight: 600;
   transition: 1s;
 }
 
 .heroButton:hover {
   transition: 1s;
-  background-color: #5FB9D8;
+  background-color: #E45D2F;
 }
