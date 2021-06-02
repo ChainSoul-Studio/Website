@@ -1,0 +1,50 @@
+
+.navOpen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    text-align: left;
+    padding: 2 rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+    background-color: #111111;
+    width: 100%;
+    position: fixed;
+    transform: translateX(0);
+}
+.navNotOpen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    text-align: left;
+    padding: 2 rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+    background-color: #111111;
+    width: 100%;
+    position: fixed;
+    transform: translateX(-100%);
+}
+
+.nav a {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 2rem 0;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: open sans;
+    color: #fff;
+}
+
+.nav a:hover {
+    color: #00FFFF;
+    transition: color 0.5s;
+}
