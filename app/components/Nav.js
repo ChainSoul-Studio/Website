@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 
 // Importing Icons
 import {
@@ -11,6 +11,10 @@ import {
 
 import { SiTiktok } from "react-icons/si";
 
+// Importing Components
+import Burger from './Burger'
+import Menu from './Menu'
+
 // Importing Styles
 import navStyles from "../styles/Nav.module.css";
 
@@ -18,6 +22,9 @@ import navStyles from "../styles/Nav.module.css";
 import Link from "next/link";
 
 const Nav = () => {
+
+    const [ open, setOpen ] = useState(false)
+
   return (
     <>
       <div className={navStyles.container}>
@@ -44,7 +51,10 @@ const Nav = () => {
             <SiTiktok style={{ width: "22px", height: "22px" }} />
           </a>
         </div>
+        
         <nav className={navStyles.nav}>
+        <Burger open={open} setOpen={setOpen} />
+        <Menu  open={open} setOpen={setOpen} />
           <ul className={navStyles.navLinks}>
             <li>
               <Link href="/">Home</Link>
@@ -57,11 +67,6 @@ const Nav = () => {
             </li>
           </ul>
         </nav>
-        <div className={navStyles.hamburger}>
-          <span className={navStyles.line}></span>
-          <span className={navStyles.line}></span>
-          <span className={navStyles.line}></span>
-        </div>
       </div>
     </>
   );
