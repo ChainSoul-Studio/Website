@@ -13,8 +13,8 @@
     z-index: 10;
 }
 
-@media only screen and (max-width: 768px) {
-    .burgerButton {
+@media only screen and (min-width: 1008px) {
+    .burger {
         display: none;
     }
 }

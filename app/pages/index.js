@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    <>
     <div className={styles.hero}>
       <Head>
         <title>ChainSoul - Studio</title>
@@ -19,5 +20,17 @@ export default function Home() {
         </div>
       </div>
     </div>
+    <div className={styles.features}>
+      <div className={styles.featureItem} style={{backgroundColor: '#0EBBF2'}}>
+
+      </div>
+      <div className={styles.featureItem}>
+        
+      </div>
+      <div className={styles.featureItem} style={{backgroundColor: '#29B9A4'}}>
+        
+      </div>
+    </div>
+    </>
   )
 }
