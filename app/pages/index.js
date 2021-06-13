@@ -65,6 +65,24 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className={styles.team}>
+        <div className={styles.teamContainer}>
+          <div className={styles.teamMemberImage}>
+
+          </div>
+          <div className={styles.teamMemberInfo}>
+
+          </div>
+        </div>
+        <div className={styles.teamContainer}>
+          <div className={styles.teamMemberImage}>
+
+          </div>
+          <div className={styles.teamMemberInfo}>
+            
+          </div>
+        </div>
+      </div>
     </>
   );
 }
