@@ -5,6 +5,18 @@ import styles from "../styles/Home.module.css";
 // Images Config
 const withImages = require('next-images')
 
+// Icon Imports
+import {
+  FaTwitter,
+  FaLinkedin,
+  FaInstagram,
+  FaFacebook,
+  FaReddit,
+  FaTelegramPlane,
+  FaYoutube,
+  FaGithub,
+} from "react-icons/fa";
+
 export default function Home() {
   return (
     <>
@@ -67,19 +79,44 @@ export default function Home() {
       </div>
       <div className={styles.team}>
         <div className={styles.teamContainer}>
-          <div className={styles.teamMemberImage}>
-
+          <div className={styles.teamMemberImageOne}>
           </div>
           <div className={styles.teamMemberInfo}>
-
+          <h1>Michael C Stewart</h1>
+          <p>ChainSoul Co-Founder</p>
+          <a href="https://twitter.com/home" passHref={true}>
+            <FaTwitter style={{ width: "22px", height: "22px" }} />
+          </a>
+          <a href='https://linkedin.com' passHref={true}>
+            <FaInstagram style={{ width: '22px', height: '22px' }} />
+          </a>
+          <a href='https://linkedin.com' passHref={true}>
+            <FaFacebook style={{ width: '22px', height: '22px' }} />
+          </a>
+          <a href='https://linkedin.com' passHref={true}>
+            <FaLinkedin style={{ width: '22px', height: '22px' }} />
+          </a>
+          
           </div>
         </div>
         <div className={styles.teamContainer}>
-          <div className={styles.teamMemberImage}>
-
+          <div className={styles.teamMemberImageTwo}>
           </div>
           <div className={styles.teamMemberInfo}>
-            
+          <h1>Larry M Stewart</h1>
+          <p>ChainSoul Co-Founder</p>
+          <a href="https://twitter.com/home" passHref={true}>
+            <FaTwitter style={{ width: "22px", height: "22px" }} />
+          </a>
+          <a href='https://linkedin.com' passHref={true}>
+            <FaInstagram style={{ width: '22px', height: '22px' }} />
+          </a>
+          <a href='https://linkedin.com' passHref={true}>
+            <FaFacebook style={{ width: '22px', height: '22px' }} />
+          </a>
+          <a href='https://linkedin.com' passHref={true}>
+            <FaLinkedin style={{ width: '22px', height: '22px' }} />
+          </a>
           </div>
         </div>
       </div>
