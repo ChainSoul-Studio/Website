@@ -11,10 +11,9 @@ import {
   FaLinkedin,
   FaInstagram,
   FaFacebook,
-  FaReddit,
   FaTelegramPlane,
-  FaYoutube,
   FaGithub,
+  FaDiscord,
 } from "react-icons/fa";
 
 export default function Home() {
@@ -54,7 +53,7 @@ export default function Home() {
         </div>
         <div className={styles.featureItem}>
           <div className={styles.iconTitleContainer} style={{
-            backgroundColor: '#BA87CF'
+            backgroundColor: '#8D44AB'
           }}>
         <img className={styles.featureIcon} src='./mission.svg' />
           <h1 className={styles.featureTitle}>Mission</h1>
@@ -77,13 +76,53 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className={styles.spacer}>
+
+      </div>
+
+      <div className={styles.community}>
+        <div className={styles.communityTitle}>
+          <h1>Community Driven</h1>
+        </div>
+        <div className={styles.communityDescription}>
+          <p>ChainSoul is an open source project hosted on GitHub, made possible by an amazing community of dedicated users. The ChainSoul community contributes their knowledge and experiences on our Discord server, Telegram, and social platforms.</p>
+        </div>
+        <div className={styles.iconLinks}>
+
+          <div className={styles.communityIcons}>
+          <a href='/' passHref={true}>
+            <FaGithub style={{width: '34px', height: '34px'}} />
+          </a>
+          <span>Github</span>
+          </div>
+
+          <div className={styles.communityIcons}>
+          <a href='/' passHref={true}>
+            <FaTelegramPlane style={{width: '34px', height: '34px'}} />
+          </a>
+          <span>Telegram</span>
+          </div>
+
+          <div className={styles.communityIcons}>
+          <a href='/' passHref={true}>
+            <FaDiscord style={{width: '34px', height: '34px'}} />
+          </a>
+          <span>Discord</span>
+          </div>
+
+        </div>
+        
+      </div>
+      <div className={styles.meet}>
+        <h1>Our Team</h1>
+      </div>
       <div className={styles.team}>
         <div className={styles.teamContainer}>
           <div className={styles.teamMemberImageOne}>
           </div>
           <div className={styles.teamMemberInfo}>
           <h1>Michael C Stewart</h1>
-          <p>ChainSoul Co-Founder</p>
+          <p>ChainSoul COO</p>
           <a href="https://twitter.com/home" passHref={true}>
             <FaTwitter style={{ width: "22px", height: "22px" }} />
           </a>
@@ -96,7 +135,6 @@ export default function Home() {
           <a href='https://linkedin.com' passHref={true}>
             <FaLinkedin style={{ width: '22px', height: '22px' }} />
           </a>
-          
           </div>
         </div>
         <div className={styles.teamContainer}>
@@ -104,7 +142,27 @@ export default function Home() {
           </div>
           <div className={styles.teamMemberInfo}>
           <h1>Larry M Stewart</h1>
-          <p>ChainSoul Co-Founder</p>
+          <p> ChainSoul CEO</p>
+          <a href="https://twitter.com/home" passHref={true}>
+            <FaTwitter style={{ width: "22px", height: "22px" }} />
+          </a>
+          <a href='https://linkedin.com' passHref={true}>
+            <FaInstagram style={{ width: '22px', height: '22px' }} />
+          </a>
+          <a href='https://linkedin.com' passHref={true}>
+            <FaFacebook style={{ width: '22px', height: '22px' }} />
+          </a>
+          <a href='https://linkedin.com' passHref={true}>
+            <FaLinkedin style={{ width: '22px', height: '22px' }} />
+          </a>
+          </div>
+        </div>
+        <div className={styles.teamContainer}>
+          <div className={styles.teamMemberImageThree}>
+          </div>
+          <div className={styles.teamMemberInfo}>
+          <h1>Brandon W Sievert</h1>
+          <p> ChainSoul CTO</p>
           <a href="https://twitter.com/home" passHref={true}>
             <FaTwitter style={{ width: "22px", height: "22px" }} />
           </a>
