@@ -30,10 +30,62 @@
   font-size: 3rem;
 }
 
-.buttonContainer {
+.form {
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.formField {
+  width: 50%;
+  margin-top: 3%;
+}
+
+.formButton {
+  margin-top: 3%;
+}
+
+.formButton button {
+  background-color: #0ec1f6;
+  color: #fff;
+  height: 38px;
+  padding: 0 20px;
+  line-height: 38px;
+  margin-left: 2px;
+  font-size: 18px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.formButton button:hover {
+  background-color: #8E44AB;
+}
+
+.formField input{
+  width: 100%;
+  height: 38px;
+  border: 1px solid #0EBCF3;
+  border-radius: 2px;
+  background: #301F3F;
+  padding: 6px;
+  font-family: 'Public Sans', sans-serif;
+  box-shadow: none;
+}
+
+.formField input[type='email']:focus {
+  outline: none;
+  border: 1px solid #0EBCF3;
+  color: #fff;
+}
+
+.formField ::placeholder{
+  color: #B380C7;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 .heroButton {
@@ -88,6 +140,8 @@
 .featureTitle {
   color: #fff;
   font-size: 30px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
 }
 
 .featureIcon {
@@ -164,6 +218,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .communityDescription p {
@@ -179,8 +234,30 @@
   margin-inline-end: 0px;
 }
 
+.communityDescription h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: #333333;
+  line-height: 1.2;
+  letter-spacing: .1rem;
+  margin-top: 3rem;
+  margin-right: 0px;
+  margin-bottom: 3rem;
+  margin-left: 0px;
+}
+
+.communityDescription span {
+  color: #3A4143;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Public Sans', sans-serif;
+}
+
 .iconLinks {
-  width: 20%;
+  width: 32%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -198,16 +275,16 @@
 
 .communityIcons a {
   margin: 4%;
-  transition: .6s;
+  transition: .4s;
 }
 
 .communityIcons a:hover {
   color: #BA87CF;
-  transition: .6s;
+  transition: .4s;
 }
 
 .communityIcons span {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 300;
   font-family: 'Public Sans', sans-serif;
   text-align: center;
@@ -215,25 +292,49 @@
 
 .meet {
   width: 100%;
-  height: 10vh;
+  height: 20vh;
   background-color: #190628;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 4%;
+  flex-direction: column;
+}
+
+.meetDescription {
+  width: 100%;
+  height: 20vh;
+  background-color: #190628;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meetDescription p {
+  width: 60%;
+  color: #B380C7;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Public Sans', sans-serif;
 }
 
 .meet h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
   color: #fff;
-  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: .1rem;
+  padding: 2%;
 }
 
 .team {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   background-color: #190628;
   display: flex;
   justify-content: center;
+  padding-top: 4%;
 }
 
 .teamContainer {
