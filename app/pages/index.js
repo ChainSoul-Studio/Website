@@ -209,6 +209,7 @@ export default function Home() {
           <div className={styles.teamMemberInfo}>
             <h1>Michael C Stewart</h1>
             <p>ChainSoul CEO</p>
+            <div className={styles.teamIconLink}>
             <a href="https://twitter.com/home" passHref={true}>
               <FaTwitter style={{ width: "22px", height: "22px" }} />
             </a>
@@ -221,6 +222,7 @@ export default function Home() {
             <a href="https://linkedin.com" passHref={true}>
               <FaLinkedin style={{ width: "22px", height: "22px" }} />
             </a>
+            </div>
           </div>
         </div>
         <div className={styles.teamContainer}>
@@ -228,6 +230,7 @@ export default function Home() {
           <div className={styles.teamMemberInfo}>
             <h1>Larry M Stewart</h1>
             <p> ChainSoul COO</p>
+            <div className={styles.teamIconLink}>
             <a href="https://twitter.com/home" passHref={true}>
               <FaTwitter style={{ width: "22px", height: "22px" }} />
             </a>
@@ -240,6 +243,7 @@ export default function Home() {
             <a href="https://linkedin.com" passHref={true}>
               <FaLinkedin style={{ width: "22px", height: "22px" }} />
             </a>
+            </div>
           </div>
         </div>
         <div className={styles.teamContainer}>
@@ -247,6 +251,7 @@ export default function Home() {
           <div className={styles.teamMemberInfo}>
             <h1>Brandon W Sievert</h1>
             <p> ChainSoul CTO</p>
+            <div className={styles.teamIconLink}>
             <a href="https://twitter.com/home" passHref={true}>
               <FaTwitter style={{ width: "22px", height: "22px" }} />
             </a>
@@ -259,6 +264,7 @@ export default function Home() {
             <a href="https://linkedin.com" passHref={true}>
               <FaLinkedin style={{ width: "22px", height: "22px" }} />
             </a>
+            </div>
           </div>
         </div>
       </div>
