@@ -10,6 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .heroTitle {
@@ -416,4 +417,166 @@
   font-size: .6rem;
   padding: 2%;
   margin-bottom: 30px;
+}
+
+.footer {
+  width: 100%;
+  height: 25vh;
+  background-color: #192136;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerHero {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 2%;
+}
+
+.footerHero h1 {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 26px;
+  padding-bottom: 3%;
+  padding-top: 5%;
+}
+
+.footerHero h2 {
+  color: #DDDDDD;
+  font-size: 16px;
+}
+
+.footerLinks {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 2%;
+}
+
+.footerLinks h2 {
+  color: #fff;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 17px;
+  padding-bottom: 3%;
+  padding-top: 11%;
+}
+
+.footerLinks a {
+  width: 40%;
+  padding: 2px 0px;
+  font-family: 'Public Sans', sans-serif;
+  color: #848482;
+  transition: .3s;
+  font-size: 13.6px;
+}
+
+.footerLinks a:hover {
+  color: #fff;
+  transition: .3s;
+}
+
+.heroButtonsContainer {
+  width: 53%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  padding-top: 4%;
+}
+
+.liveChartButton {
+  width: 13%;
+}
+
+.liveChartButton button {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0px 8px 0px 0px;
+  letter-spacing: 0.40px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: #8D44AB;
+  cursor: pointer;
+  transition: .4s;
+  border: 1px solid #8D44AB; 
+}
+
+.liveChartButton button:hover {
+  transition: .4s;
+  opacity: .7;
+}
+
+.buyButton {
+  width: 13%;
+}
+
+.buyButton button {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  letter-spacing: 0.40px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  transition: .4s;
+  border: 1px solid #fff;
+}
+
+.buyButton button:hover {
+  transition: .4s;
+  background-color: #fff;
+  color: black;
+}
+
+.tokenStats {
+  width: 53%;
+  height: 10vh;
+  margin-bottom: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.statContainer {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.statContainer .statValue {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.statContainer .statDescription {
+  color: #ced4da;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12.8px;
+  font-weight: 600;
+  line-height: 1.5;
 }
