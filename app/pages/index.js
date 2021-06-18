@@ -32,14 +32,36 @@ export default function Home() {
         <div className={styles.heroContent}>
           <div className={styles.heroTitle}>
             <h1>Reforge the gaming industry with us!</h1>
-              <form className={styles.form}>
-                <div className={styles.formField}>
-                  <input type='email' placeholder='Your email address' title='Please enter a valid email address' />
+              <div className={styles.heroButtonsContainer}>
+                <div className={styles.liveChartButton}>
+                  <button href='/'>
+                    Live Chart
+                  </button>
                 </div>
-                <div className={styles.formButton}>
-                  <button type='submit'>Subscribe</button>
+                <div className={styles.buyButton}>
+                  <button href='/'>
+                    Buy Now
+                  </button>
                 </div>
-              </form>
+              </div>
+          </div>
+          <div className={styles.tokenStats}>
+            <div className={styles.statContainer}>
+              <p className={styles.statValue}>0.000003850</p>
+              <p className={styles.statDescription}>Current Value</p>
+            </div>
+            <div className={styles.statContainer}>
+              <p className={styles.statValue}>2,376,829</p>
+              <p className={styles.statDescription}>Holders</p>
+            </div>
+            <div className={styles.statContainer}>
+              <p className={styles.statValue}>581,278,689,148,758.9</p>
+              <p className={styles.statDescription}>Supply</p>
+            </div>
+            <div className={styles.statContainer}>
+              <p className={styles.statValue}>$2,237,922,947.46</p>
+              <p className={styles.statDescription}>Market Cap</p>
+            </div>
           </div>
         </div>
       </div>
@@ -115,7 +137,7 @@ export default function Home() {
           </p>
           <br></br>
           <br></br>
-          <h1>Want to support our ChainSoul?</h1>
+          <h1>Want to support ChainSoul?</h1>
           <p>
             Join/follow/subscribe to our Twitter, Discord, Youtube, Twitch, and
             TikTok. You can also reach out to us at{" "}
@@ -239,6 +261,60 @@ export default function Home() {
             </a>
           </div>
         </div>
+      </div>
+      <div className={styles.footer}>
+        <div className={styles.footerHero}>
+          <h1>ChainSoul</h1>
+          <h2>The ChainSoul Studio is a community driven, industry changing solution for gamers and game creators.</h2>
+        </div>
+        <div className={styles.footerLinks}>
+          <h2>Community</h2>
+          <a href='/'>
+            Discord
+          </a>
+          <a href='/'>
+            Telegram
+          </a>
+          <a href='/'>
+            YouTube
+          </a>
+          <a href='/'>
+            Twitch
+          </a>
+          <a href='/'>
+            TikTok
+          </a>
+        </div>
+        <div className={styles.footerLinks}>
+          <h2>Social</h2>
+          <a href='/'>
+            Facebook
+          </a>
+          <a href='/'>
+            Twitter
+          </a>
+          <a href='/'>
+            Instagram
+          </a>
+          <a href='/'>
+            LinkedIn
+          </a>
+        </div>
+        <div className={styles.footerLinks}>
+          <h2>Resources</h2>
+          <a href='/'>
+            Contract
+          </a>
+          <a href='/'>
+            White paper
+          </a>
+          <a href='/'>
+            Brand
+          </a>
+        </div>
+      </div>
+      <div className={styles.footerCopyright}>
+
       </div>
     </>
   );
