@@ -66,7 +66,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.features}>
-        <div className={styles.featureItem}>
+        {/* <div className={styles.featureItem}>
           <div
             className={styles.iconTitleContainer}
             style={{
@@ -121,6 +121,12 @@ export default function Home() {
             </p>
           </div>
         </div>
+      */}
+      <div className={styles.featureContainer}>
+        <div className={styles.featureTitle}>
+          <h1>Community</h1>
+        </div>
+      </div>
       </div>
       <div className={styles.spacer}></div>
 
