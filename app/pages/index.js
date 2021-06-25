@@ -66,68 +66,185 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.features}>
-        {/* <div className={styles.featureItem}>
-          <div
-            className={styles.iconTitleContainer}
-            style={{
-              backgroundColor: "#0EBBF2",
-              borderTopLeftRadius: "6px",
-              borderBottomLeftRadius: "6px",
-            }}
-          >
-            <img className={styles.featureIcon} src="./identity.svg" />
-            <h1 className={styles.featureTitle}>Identity</h1>
-          </div>
-          <div className={styles.featureDescription}>
-            <p>
-              ChainSoul is a community of humans with dreams, born to live in a
-              more connected, virtual world. Dedicated, creative, dreamers—the
-              future excites us and we can’t stop building toward the virtual
-              universe of our dreams.
-            </p>
-          </div>
-        </div>
-        <div className={styles.featureItem}>
-          <div
-            className={styles.iconTitleContainer}
-            style={{
-              backgroundColor: "#8D44AB",
-            }}
-          >
-            <img className={styles.featureIcon} src="./mission.svg" />
-            <h1 className={styles.featureTitle}>Objective</h1>
-          </div>
-          <div className={styles.featureDescription}>
-            <p>
-            ChainSoul Studio is an community of outcasts attempting to make AAA-quality video games easy to create for the benefit of all gamers and game-creators.
-            </p>
-          </div>
-        </div>
-        <div className={styles.featureItem}>
-          <div
-            className={styles.iconTitleContainer}
-            style={{
-              backgroundColor: "#29B9A4",
-              borderTopRightRadius: "6px",
-              borderBottomRightRadius: "6px",
-            }}
-          >
-            <img className={styles.featureIcon} src="./satellite.svg" />
-            <h1 className={styles.featureTitle}>Join</h1>
-          </div>
-          <div className={styles.featureDescription}>
-            <p>
-            Join a global community of gamers and game-creators who are fed up with pay to win, waiting for releases, and being sold sub-quality games and software.
-            </p>
-          </div>
-        </div>
-      */}
       <div className={styles.featureContainer}>
         <div className={styles.featureTitle}>
           <h1>Community</h1>
         </div>
+        <div className={styles.featureDescriptions}>
+          <p>ChainSoul is an open source project hosted on GitHub, made possible by an amazing community of dedicated users. The ChainSoul community contributes their knowledge and experiences on our Discord server, Telegram, and social platforms. Join us as we take on the task of reforging the gaming industry!</p>
+          <br></br>
+          <br></br>
+          <p>Join/follow/subscribe to our Twitter, Discord, Twitch, and TikTok. You can also reach out to us at Community@chainsoul.io with feedback on our vision and ideas. Or reach out to Recruitment@chainsoul.io with information regarding your skill set and exceptional ability.</p>
+        </div>
+        <div className={styles.featureLinks}>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaTwitter style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>Twitter</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaDiscord style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>Discord</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaYoutube style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>YouTube</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaTwitch style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>Twitch</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <IoLogoTiktok style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>TikTok</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaGithub style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>GitHub</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaTelegramPlane style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>Telegram</span>
+          </div>
+
+        </div>
       </div>
       </div>
+
+      <div className={styles.features}>
+      <div className={styles.featureContainer}>
+        <div className={styles.featureTitle}>
+          <h1>Community</h1>
+        </div>
+        <div className={styles.featureDescriptions}>
+          <p>ChainSoul is an open source project hosted on GitHub, made possible by an amazing community of dedicated users. The ChainSoul community contributes their knowledge and experiences on our Discord server, Telegram, and social platforms. Join us as we take on the task of reforging the gaming industry!</p>
+          <br></br>
+          <br></br>
+          <p>Join/follow/subscribe to our Twitter, Discord, Twitch, and TikTok. You can also reach out to us at Community@chainsoul.io with feedback on our vision and ideas. Or reach out to Recruitment@chainsoul.io with information regarding your skill set and exceptional ability.</p>
+        </div>
+        <div className={styles.featureLinks}>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaTwitter style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>Twitter</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaDiscord style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>Discord</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaYoutube style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>YouTube</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaTwitch style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>Twitch</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <IoLogoTiktok style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>TikTok</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaGithub style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>GitHub</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaTelegramPlane style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>Telegram</span>
+          </div>
+
+        </div>
+      </div>
+      </div>
+
+      <div className={styles.features}>
+      <div className={styles.featureContainer}>
+        <div className={styles.featureTitle}>
+          <h1>Community</h1>
+        </div>
+        <div className={styles.featureDescriptions}>
+          <p>ChainSoul is an open source project hosted on GitHub, made possible by an amazing community of dedicated users. The ChainSoul community contributes their knowledge and experiences on our Discord server, Telegram, and social platforms. Join us as we take on the task of reforging the gaming industry!</p>
+          <br></br>
+          <br></br>
+          <p>Join/follow/subscribe to our Twitter, Discord, Twitch, and TikTok. You can also reach out to us at Community@chainsoul.io with feedback on our vision and ideas. Or reach out to Recruitment@chainsoul.io with information regarding your skill set and exceptional ability.</p>
+        </div>
+        <div className={styles.featureLinks}>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaTwitter style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>Twitter</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaDiscord style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>Discord</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaYoutube style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>YouTube</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaTwitch style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>Twitch</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <IoLogoTiktok style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>TikTok</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaGithub style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>GitHub</span>
+          </div>
+          <div className={styles.featureIcons}>
+          <a href="/" passHref={true}>
+              <FaTelegramPlane style={{ width: "34px", height: "34px" }} />
+            </a>
+            <span>Telegram</span>
+          </div>
+
+        </div>
+      </div>
+      </div>
+
+      
+
+
       <div className={styles.spacer}></div>
 
       <div className={styles.community}>
