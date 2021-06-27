@@ -16,7 +16,13 @@ import {
   FaDiscord,
   FaYoutube,
   FaTwitch,
+
+  FaArrowRight,
 } from "react-icons/fa";
+
+import {
+  FiArrowRight,
+} from 'react-icons/fi'
 
 import { IoLogoTiktok } from "react-icons/io5";
 
@@ -32,6 +38,7 @@ export default function Home() {
         <div className={styles.heroContent}>
           <div className={styles.heroTitle}>
             <h1>Reforge the gaming industry with us!</h1>
+            <p>ChainSoul is an innovative Social Platform, Game Studio, NFT Marketplace, and Decentralized Token.</p>
               <div className={styles.heroButtonsContainer}>
                 <div className={styles.liveChartButton}>
                   <button href='/'>
@@ -40,7 +47,7 @@ export default function Home() {
                 </div>
                 <div className={styles.buyButton}>
                   <button href='/'>
-                    Buy Now
+                    Buy Now<FiArrowRight style={{height: '18px', width: '18px', marginLeft: '10px', position: 'absolute'}} />
                   </button>
                 </div>
               </div>
@@ -245,81 +252,10 @@ export default function Home() {
       
 
 
-      <div className={styles.spacer}></div>
+      <div className={styles.spacer}>
 
-      <div className={styles.community}>
-        <div className={styles.communityTitle}>
-          <h1>Community Driven</h1>
-        </div>
-        <div className={styles.communityDescription}>
-          <p>
-            ChainSoul is an open source project hosted on GitHub, made possible
-            by an amazing community of dedicated users. The ChainSoul community
-            contributes their knowledge and experiences on our Discord server,
-            Telegram, and social platforms.
-          </p>
-          <br></br>
-          <br></br>
-          <h1>Want to support ChainSoul?</h1>
-          <p>
-            Join/follow/subscribe to our Twitter, Discord, Youtube, Twitch, and
-            TikTok. You can also reach out to us at{" "}
-            <span>Community@chainsoul.io</span> with feedback on our vision and
-            ideas. Or reach out to <span>Recruitment@chainsoul.io</span> with
-            information regarding your skill set and exceptional ability.
-          </p>
-        </div>
-        <div className={styles.iconLinks}>
-          <div className={styles.communityIcons}>
-            <a href="/" passHref={true}>
-              <FaTwitter style={{ width: "34px", height: "34px" }} />
-            </a>
-            <span>Twitter</span>
-          </div>
-
-          <div className={styles.communityIcons}>
-            <a href="/" passHref={true}>
-              <FaDiscord style={{ width: "34px", height: "34px" }} />
-            </a>
-            <span>Discord</span>
-          </div>
-
-          <div className={styles.communityIcons}>
-            <a href="/" passHref={true}>
-              <FaYoutube style={{ width: "34px", height: "34px" }} />
-            </a>
-            <span>YouTube</span>
-          </div>
-
-          <div className={styles.communityIcons}>
-            <a href="/" passHref={true}>
-              <FaTwitch style={{ width: "34px", height: "34px" }} />
-            </a>
-            <span>Twitch</span>
-          </div>
-
-          <div className={styles.communityIcons}>
-            <a href="/" passHref={true}>
-              <IoLogoTiktok style={{ width: "34px", height: "34px" }} />
-            </a>
-            <span>TikTok</span>
-          </div>
-
-          <div className={styles.communityIcons}>
-            <a href="/" passHref={true}>
-              <FaGithub style={{ width: "34px", height: "34px" }} />
-            </a>
-            <span>Github</span>
-          </div>
-
-          <div className={styles.communityIcons}>
-            <a href="/" passHref={true}>
-              <FaTelegramPlane style={{ width: "34px", height: "34px" }} />
-            </a>
-            <span>Telegram</span>
-          </div>
-        </div>
       </div>
+
       <div className={styles.meet}>
         <h1>Core Team</h1>
       </div>
