@@ -292,6 +292,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 4%;
 }
 
 .meetDescription {
@@ -301,6 +302,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 4%;
 }
 
 .meetDescription p {
@@ -324,7 +326,7 @@
 
 .team {
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   background-color: #190628;
   display: flex;
   justify-content: center;
@@ -332,7 +334,7 @@
 }
 
 .teamContainer {
-  width: 17%;
+  width: 18%;
   height: 65%;
   background-color: none;
   display: flex;
@@ -368,7 +370,7 @@
 
 .teamMemberImageThree {
   width: 100%;
-  height: 60%;
+  height: 75%;
   background-image: url("./brandon.jpg");
   background-size: cover;
   background-position: center;
@@ -404,15 +406,18 @@
 
 .teamMemberInfo h1 {
   color: #fff;
-  font-size: 1rem;
-  padding: 2%;
+  font-size: 17px;
+  padding-left: 2%;
+  padding-top: 4%;
+  font-weight: 600;
 }
 
 .teamMemberInfo p {
-  color: #fff;
-  font-size: .6rem;
-  padding: 2%;
+  color: #889888;
+  font-size: 12.8px;
+  padding-left: 2%;
   margin-bottom: 30px;
+  font-weight: 900;
 }
 
 .teamIconLink {
@@ -423,59 +428,68 @@
 
 .footer {
   width: 100%;
-  height: 25vh;
+  height: 27vh;
   background-color: #192136;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.footerWrapper {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+
 .footerHero {
-  width: 30%;
+  width: 47%;
   height: 100%;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  padding-left: 2%;
 }
 
 .footerHero h1 {
   color: #fff;
-  font-family: 'Roboto';
+  font-family: 'Montserrat', sans-serif;
   font-size: 26px;
   padding-bottom: 3%;
-  padding-top: 5%;
+  padding-top: 10%;
 }
 
 .footerHero h2 {
-  color: #DDDDDD;
+  color: #C6C7C8;
   font-size: 16px;
 }
 
 .footerLinks {
-  width: 15%;
+  width: 17%;
   height: 100%;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  padding-left: 2%;
+  padding-left: 3%;
 }
 
 .footerLinks h2 {
   color: #fff;
-  font-family: 'Public Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   padding-bottom: 3%;
-  padding-top: 11%;
+  padding-top: 33%;
+  line-height: 1.5;
 }
 
 .footerLinks a {
   width: 40%;
-  padding: 2px 0px;
-  font-family: 'Public Sans', sans-serif;
-  color: #848482;
+  padding: 3px 0px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ced4da;
   transition: .3s;
   font-size: 13.6px;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 .footerLinks a:hover {
@@ -585,4 +599,26 @@
   font-size: 12.8px;
   font-weight: 600;
   line-height: 1.5;
+}
+
+.copyRightWrapper {
+  width: 100%;
+  height: 5vh;
+  background-color: #192136;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyRight {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.copyRight p {
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
