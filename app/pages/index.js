@@ -328,9 +328,10 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.footer}>
+        <div className={styles.footerWrapper}>
         <div className={styles.footerHero}>
           <h1>ChainSoul</h1>
-          <h2>The ChainSoul Studio is a community driven, industry changing solution for gamers and game creators.</h2>
+          <h2>ChainSoul Studio is a community driven and industry changing solution for gamers and game creators.</h2>
         </div>
         <div className={styles.footerLinks}>
           <h2>Community</h2>
@@ -380,6 +381,12 @@ export default function Home() {
       </div>
       <div className={styles.footerCopyright}>
 
+      </div>
+      </div>
+      <div className={styles.copyRightWrapper}>
+        <div className={styles.copyRight}>
+          <p>Copyright © 2021 ChainSoul LLC. | All Rights Reserved</p>
+        </div>
       </div>
     </>
   );
