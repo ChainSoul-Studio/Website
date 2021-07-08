@@ -1,20 +1,26 @@
 .container {
   width: 100%;
-  height: 50px;
+  height: 8%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
+  position: fixed;
   top: 0;
-  background-color: RGB(40, 7, 54);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
   z-index: 999;
 }
 
 .title {
-  display: flex;
+  /* display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 1%;
+  padding-left: 1%; */
+  width: 10%;
+  height: 100%;
+  background-image: url("./studiologo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .title h1 {
@@ -36,17 +42,17 @@
 }
 
 .nav ul li a {
-  color: #ba87cf;
+  color: #fff;
   padding: 6px;
-  font-weight: 600;
-  font-size: 0.8rem;
-  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 2px;
   transition: 0.75s;
 }
 
 .nav ul li a:hover {
-  color: #fff;
+  color: #8D44AB;
   transition: 0.75s;
 }
 
@@ -58,12 +64,12 @@
 }
 
 .icons a {
-  color: #ba87cf;
+  color: #fff;
   transition: 0.75s;
 }
 
 .icons a:hover {
-  color: #fff;
+  color: #8D44AB;
   transition: 0.75s;
 }
 

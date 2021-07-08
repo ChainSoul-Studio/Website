@@ -2,6 +2,9 @@ import Head from "next/head";
 
 import styles from "../styles/Home.module.css";
 
+// Import Components
+import Nav from '../components/Nav'
+
 // Images Config
 const withImages = require("next-images");
 
@@ -29,6 +32,7 @@ import { IoLogoTiktok } from "react-icons/io5";
 export default function Home() {
   return (
     <>
+    <Nav />
       <div className={styles.hero}>
         <Head>
           <title>ChainSoul - Studio</title>
@@ -38,39 +42,24 @@ export default function Home() {
         <div className={styles.heroContent}>
           <div className={styles.heroTitle}>
             <h1>Reforge the gaming industry with us!</h1>
-            <p>ChainSoul is an innovative Social Platform, Game Studio, NFT Marketplace, and Decentralized Token.</p>
+            <p>ChainSoul is an innovative Social Platform, Game Studio, and NFT Marketplace.</p>
               <div className={styles.heroButtonsContainer}>
                 <div className={styles.liveChartButton}>
                   <button href='/'>
-                    Live Chart
+                    Learn More
                   </button>
                 </div>
-                <div className={styles.buyButton}>
+                <div className={styles.projectsButton}>
                   <button href='/'>
-                    Buy Now<FiArrowRight style={{height: '18px', width: '18px', marginLeft: '10px', position: 'absolute'}} />
+                    View Projects<FiArrowRight style={{height: '18px', width: '18px', marginLeft: '10px', position: 'absolute'}} />
                   </button>
                 </div>
               </div>
           </div>
-          <div className={styles.tokenStats}>
-            <div className={styles.statContainer}>
-              <p className={styles.statValue}>0.000003850</p>
-              <p className={styles.statDescription}>Current Value</p>
-            </div>
-            <div className={styles.statContainer}>
-              <p className={styles.statValue}>2,376,829</p>
-              <p className={styles.statDescription}>Holders</p>
-            </div>
-            <div className={styles.statContainer}>
-              <p className={styles.statValue}>581,278,689,148,758.9</p>
-              <p className={styles.statDescription}>Supply</p>
-            </div>
-            <div className={styles.statContainer}>
-              <p className={styles.statValue}>$2,237,922,947.46</p>
-              <p className={styles.statDescription}>Market Cap</p>
-            </div>
-          </div>
         </div>
+      </div>
+      <div className={styles.spacer}>
+
       </div>
       <div className={styles.features}>
       <div className={styles.featureContainer}>

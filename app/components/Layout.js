@@ -1,11 +1,9 @@
 
-// Import Components
-import Nav from './Nav'
+
 
 const Layout = ({children}) => {
     return (
         <>
-        <Nav />
         <div>
             <main>
                 {children}
