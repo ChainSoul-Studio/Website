@@ -28,7 +28,7 @@ const Nav = () => {
     <>
       <div className={navStyles.container}>
         <div className={navStyles.title}>
-          <h1>ChainSoul</h1>
+          {/* <h1>ChainSoul</h1> */}
         </div>
         <div className={navStyles.icons}>
           <a href="https://twitter.com/home" passHref={true}>
@@ -62,7 +62,10 @@ const Nav = () => {
               <Link href="/">About</Link>
             </li>
             <li>
-              <Link href="/">Marketplace</Link>
+              <Link href="/">Projects</Link>
+            </li>
+            <li>
+              <Link href="/">Contact</Link>
             </li>
           </ul>
         </nav>
