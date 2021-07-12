@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 
 // Import Components
 import Nav from '../components/Nav'
+import Social from '../components/Social'
 
 // Images Config
 const withImages = require("next-images");
@@ -33,6 +34,7 @@ export default function Home() {
   return (
     <>
     <Nav />
+    <Social />
       <div className={styles.hero}>
         <Head>
           <title>ChainSoul - Studio</title>

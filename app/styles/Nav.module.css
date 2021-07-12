@@ -21,6 +21,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-left: 19%;
 }
 
 .title h1 {
@@ -31,7 +32,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 1%;
+  margin-right: 20%;
 }
 
 .nav ul {

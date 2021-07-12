@@ -1,16 +1,5 @@
 import React, { useState } from "react";
 
-// Importing Icons
-import {
-  FaTwitter,
-  FaReddit,
-  FaTelegramPlane,
-  FaYoutube,
-  FaGithub,
-} from "react-icons/fa";
-
-import { SiTiktok } from "react-icons/si";
-
 // Importing Components
 import Burger from "./Burger";
 import Menu from "./Menu";
@@ -30,26 +19,7 @@ const Nav = () => {
         <div className={navStyles.title}>
           {/* <h1>ChainSoul</h1> */}
         </div>
-        <div className={navStyles.icons}>
-          <a href="https://twitter.com/home" passHref={true}>
-            <FaTwitter style={{ width: "22px", height: "22px" }} />
-          </a>
-          <a href="https://twitter.com/home" passHref={true}>
-            <FaReddit style={{ width: "22px", height: "22px" }} />
-          </a>
-          <a href="https://twitter.com/home" passHref={true}>
-            <FaTelegramPlane style={{ width: "22px", height: "22px" }} />
-          </a>
-          <a href="https://twitter.com/home" passHref={true}>
-            <FaYoutube style={{ width: "22px", height: "22px" }} />
-          </a>
-          <a href="https://twitter.com/home" passHref={true}>
-            <FaGithub style={{ width: "22px", height: "22px" }} />
-          </a>
-          <a href="https://twitter.com/home" passHref={true}>
-            <SiTiktok style={{ width: "22px", height: "22px" }} />
-          </a>
-        </div>
+        
 
         <nav className={navStyles.nav}>
           <Burger open={open} setOpen={setOpen} />
