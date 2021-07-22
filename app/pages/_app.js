@@ -1,17 +1,19 @@
-// Import Components
-import Layout from '../components/Layout'
-
-
-// Import Styles
-import '../styles/globals.css'
-
+// Imports
+import Layout from "../components/Layout";
+import { AuthProvider } from "../auth";
+import "../styles/globals.css";
+import { ChakraProvider } from "@chakra-ui/react"
 
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>
-      <Component {...pageProps} />
+      <ChakraProvider>
+      <AuthProvider>
+        <Component {...pageProps} />
+      </AuthProvider>
+      </ChakraProvider>
     </Layout>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
