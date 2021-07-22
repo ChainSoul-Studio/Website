@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
@@ -21,7 +21,6 @@ import {
   FaDiscord,
   FaYoutube,
   FaTwitch,
-  FaArrowRight,
 } from "react-icons/fa";
 
 import { FiArrowRight } from "react-icons/fi";
@@ -103,43 +102,43 @@ export default function Home() {
           </div>
           <div className={styles.featureLinks}>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaTwitter style={{ width: "34px", height: "34px" }} />
               </a>
               <span>Twitter</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaDiscord style={{ width: "34px", height: "34px" }} />
               </a>
               <span>Discord</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaYoutube style={{ width: "34px", height: "34px" }} />
               </a>
               <span>YouTube</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaTwitch style={{ width: "34px", height: "34px" }} />
               </a>
               <span>Twitch</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <IoLogoTiktok style={{ width: "34px", height: "34px" }} />
               </a>
               <span>TikTok</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaGithub style={{ width: "34px", height: "34px" }} />
               </a>
               <span>GitHub</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaTelegramPlane style={{ width: "34px", height: "34px" }} />
               </a>
               <span>Telegram</span>
@@ -173,43 +172,43 @@ export default function Home() {
           </div>
           <div className={styles.featureLinks}>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaTwitter style={{ width: "34px", height: "34px" }} />
               </a>
               <span>Twitter</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaDiscord style={{ width: "34px", height: "34px" }} />
               </a>
               <span>Discord</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaYoutube style={{ width: "34px", height: "34px" }} />
               </a>
               <span>YouTube</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaTwitch style={{ width: "34px", height: "34px" }} />
               </a>
               <span>Twitch</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <IoLogoTiktok style={{ width: "34px", height: "34px" }} />
               </a>
               <span>TikTok</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaGithub style={{ width: "34px", height: "34px" }} />
               </a>
               <span>GitHub</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaTelegramPlane style={{ width: "34px", height: "34px" }} />
               </a>
               <span>Telegram</span>
@@ -243,43 +242,43 @@ export default function Home() {
           </div>
           <div className={styles.featureLinks}>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaTwitter style={{ width: "34px", height: "34px" }} />
               </a>
               <span>Twitter</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaDiscord style={{ width: "34px", height: "34px" }} />
               </a>
               <span>Discord</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaYoutube style={{ width: "34px", height: "34px" }} />
               </a>
               <span>YouTube</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaTwitch style={{ width: "34px", height: "34px" }} />
               </a>
               <span>Twitch</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <IoLogoTiktok style={{ width: "34px", height: "34px" }} />
               </a>
               <span>TikTok</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaGithub style={{ width: "34px", height: "34px" }} />
               </a>
               <span>GitHub</span>
             </div>
             <div className={styles.featureIcons}>
-              <a href="/" passHref={true}>
+              <a href="/" >
                 <FaTelegramPlane style={{ width: "34px", height: "34px" }} />
               </a>
               <span>Telegram</span>
@@ -310,16 +309,16 @@ export default function Home() {
             <h1>Michael C Stewart</h1>
             <p>ChainSoul CEO</p>
             <div className={styles.teamIconLink}>
-              <a href="https://twitter.com/home" passHref={true}>
+              <a href="https://twitter.com/home" >
                 <FaTwitter style={{ width: "22px", height: "22px" }} />
               </a>
-              <a href="https://linkedin.com" passHref={true}>
+              <a href="https://linkedin.com" >
                 <FaInstagram style={{ width: "22px", height: "22px" }} />
               </a>
-              <a href="https://linkedin.com" passHref={true}>
+              <a href="https://linkedin.com" >
                 <FaFacebook style={{ width: "22px", height: "22px" }} />
               </a>
-              <a href="https://linkedin.com" passHref={true}>
+              <a href="https://linkedin.com" >
                 <FaLinkedin style={{ width: "22px", height: "22px" }} />
               </a>
             </div>
@@ -331,16 +330,16 @@ export default function Home() {
             <h1>Larry M Stewart</h1>
             <p> ChainSoul COO</p>
             <div className={styles.teamIconLink}>
-              <a href="https://twitter.com/home" passHref={true}>
+              <a href="https://twitter.com/home" >
                 <FaTwitter style={{ width: "22px", height: "22px" }} />
               </a>
-              <a href="https://linkedin.com" passHref={true}>
+              <a href="https://linkedin.com" >
                 <FaInstagram style={{ width: "22px", height: "22px" }} />
               </a>
-              <a href="https://linkedin.com" passHref={true}>
+              <a href="https://linkedin.com" >
                 <FaFacebook style={{ width: "22px", height: "22px" }} />
               </a>
-              <a href="https://linkedin.com" passHref={true}>
+              <a href="https://linkedin.com" >
                 <FaLinkedin style={{ width: "22px", height: "22px" }} />
               </a>
             </div>
@@ -352,16 +351,16 @@ export default function Home() {
             <h1>Brandon W Sievert</h1>
             <p> ChainSoul CTO</p>
             <div className={styles.teamIconLink}>
-              <a href="https://twitter.com/home" passHref={true}>
+              <a href="https://twitter.com/home" >
                 <FaTwitter style={{ width: "22px", height: "22px" }} />
               </a>
-              <a href="https://linkedin.com" passHref={true}>
+              <a href="https://linkedin.com" >
                 <FaInstagram style={{ width: "22px", height: "22px" }} />
               </a>
-              <a href="https://linkedin.com" passHref={true}>
+              <a href="https://linkedin.com" >
                 <FaFacebook style={{ width: "22px", height: "22px" }} />
               </a>
-              <a href="https://linkedin.com" passHref={true}>
+              <a href="https://linkedin.com" >
                 <FaLinkedin style={{ width: "22px", height: "22px" }} />
               </a>
             </div>

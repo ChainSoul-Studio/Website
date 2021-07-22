@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import modalStyles from "../styles/AuthModalSignUp.module.css";
-import Link from "next/link";
 import { useToast } from "@chakra-ui/react"
 
 // Firebase Imports
-import firebaseClient from "../firebaseClient";
 import firebase from "firebase/app";
 import "firebase/auth";
 
@@ -66,7 +64,7 @@ const AuthModalSignUp = ({
         </div>
         <div className={modalStyles.formContainer}>
           <form>
-            <label for="email" className={modalStyles.label}>
+            <label htmlFor="email" className={modalStyles.label}>
               <input 
               type="text" 
               name="email"
@@ -83,7 +81,7 @@ const AuthModalSignUp = ({
               <span className={modalStyles.placeholder}>Username</span>
             </label> */}
 
-            <label for="password" className={modalStyles.label}>
+            <label htmlFor="password" className={modalStyles.label}>
               <input
                 autoComplete="off"
                 type="password"

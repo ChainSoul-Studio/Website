@@ -2,7 +2,6 @@ import React from 'react';
 import nookies from 'nookies';
 import {verifyToken} from '../firebaseAdmin';
 import firebaseClient from '../firebaseClient';
-import firebase from 'firebase/app';
 
 function Authenticated({session}) {
     firebaseClient();
