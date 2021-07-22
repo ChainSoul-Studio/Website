@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
   /* background-image: linear-gradient(RGB(40, 7, 54), RGB(25, 6, 40)); */
-  background-image: linear-gradient(rgba(40, 7, 54, 0.5), rgba(25, 6, 40, 1)), url("./herobackground.jpeg");
+  background-image: linear-gradient(rgba(40, 7, 54, 0.5), rgba(25, 6, 40, 1)), url("./mainbackground.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,35 +15,109 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  line-height: 1.7;
 }
 
-.heroTitle {
-  width: 100%;
-  height: 60%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.heroTopTitle {
+  width: 50%;
 }
 
-.heroTitle h1 {
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
+.heroTopTitle p {
+  color: #ced4da;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heroBottomTitle {
+  width: 50%;
+  margin-bottom: 8px;
+}
+
+.heroBottomTitle h1 {
   color: #fff;
-  word-spacing: 10px;
-  font-size: 48px;
-  margin-left: 20%;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
 }
 
-.heroTitle p {
-  padding: 2%;
-  padding-left: 0;
-  padding-bottom: 0;
-  margin-left: 20%;
-  color: #BBBBBE;
-  font-size: 18px;
-  line-height: 32px;
-  font-family: 'Khula', sans-serif;
-  max-width: 550px;
+.heroDescription {
+  width: 50%;
+  margin-bottom: 48px;
+}
+
+.heroDescription p {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+
+.heroButtonsContainer {
+  width: 50%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+}
+
+.liveChartButton {
+  width: 15%;
+}
+
+.liveChartButton button {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0px 8px 0px 0px;
+  letter-spacing: 0.40px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: #8D44AB;
+  cursor: pointer;
+  transition: .4s;
+  border: 1px solid #8D44AB; 
+}
+
+.liveChartButton button:hover {
+  transition: .4s;
+  opacity: .7;
+}
+
+.projectsButton {
+  width: 20%;
+}
+
+.projectsButton button {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 28px;
+  padding-right: 40px;
+  letter-spacing: 0.40px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 1s;
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+
+
+.projectsButton button:hover {
+  transition: 2s;
+  color: black;
+  box-shadow: inset 400px 0 0 0 #FFF;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -499,73 +573,6 @@
 .footerLinks a:hover {
   color: #fff;
   transition: .3s;
-}
-
-.heroButtonsContainer {
-  width: 53%;
-  height: 8vh;
-  display: flex;
-  align-items: center;
-  padding-top: 4%;
-  margin-left: 20%;
-}
-
-.liveChartButton {
-  width: 15%;
-}
-
-.liveChartButton button {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 24px;
-  padding-right: 24px;
-  margin: 0px 8px 0px 0px;
-  letter-spacing: 0.40px;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  background-color: #8D44AB;
-  cursor: pointer;
-  transition: .4s;
-  border: 1px solid #8D44AB; 
-}
-
-.liveChartButton button:hover {
-  transition: .4s;
-  opacity: .7;
-}
-
-.projectsButton {
-  width: 20%;
-}
-
-.projectsButton button {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 28px;
-  padding-right: 40px;
-  letter-spacing: 0.40px;
-  border: none;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  background-color: transparent;
-  cursor: pointer;
-  transition: 1s;
-  border: 1px solid #fff;
-  text-align: center;
-}
-
-
-
-.projectsButton button:hover {
-  transition: 2s;
-  color: black;
-  box-shadow: inset 400px 0 0 0 #FFF;
 }
 
 .tokenStats {

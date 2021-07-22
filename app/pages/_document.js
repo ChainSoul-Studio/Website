@@ -28,6 +28,10 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet" />
+
 <link href="https://fonts.googleapis.com/css2?family=Khula&display=swap" rel="stylesheet" />
 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet" />

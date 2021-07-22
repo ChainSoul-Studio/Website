@@ -5,7 +5,8 @@
     align-items: flex-end;
     flex-direction: column;
     height: 100%;
-    width: 100%;
+    width: 3%;
+    right: 0;
     position: absolute;
 }
 
@@ -27,4 +28,10 @@
     align-items: center;
     margin: 6px;
     margin-right: 20px;
+    transition: .5s;
+}
+
+.icon:hover {
+    color: #8D44AB;
+    transition: .5s;
 }

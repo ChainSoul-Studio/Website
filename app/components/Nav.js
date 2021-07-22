@@ -3,41 +3,29 @@ import React, { useState } from "react";
 // Importing Components
 import Burger from "./Burger";
 import Menu from "./Menu";
+import AuthModal from "./LoginModal";
 
 // Importing Styles
 import navStyles from "../styles/Nav.module.css";
 
-// Importing Next
-import Link from "next/link";
-
 const Nav = () => {
   const [open, setOpen] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
 
   return (
     <>
       <div className={navStyles.container}>
-        <div className={navStyles.title}>
-          {/* <h1>ChainSoul</h1> */}
-        </div>
-        
+        <div className={navStyles.title}>{/* <h1>ChainSoul</h1> */}</div>
 
         <nav className={navStyles.nav}>
           <Burger open={open} setOpen={setOpen} />
           <Menu open={open} setOpen={setOpen} />
-          <ul className={navStyles.navLinks}>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/">About</Link>
-            </li>
-            <li>
-              <Link href="/">Projects</Link>
-            </li>
-            <li>
-              <Link href="/">Contact</Link>
-            </li>
-          </ul>
+          <AuthModal modalOpen={modalOpen} setModalOpen={setModalOpen} />
+          <div className={navStyles.buttonContainer}>
+            <button modalOpen={modalOpen} onClick={() => setModalOpen(!modalOpen)} href="/">
+              Log In / Sign Up
+            </button>
+          </div>
         </nav>
       </div>
     </>
