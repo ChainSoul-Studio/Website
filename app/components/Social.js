@@ -17,36 +17,36 @@ const Social = () => {
         <div className={socialStyles.iconsContainer}>
             <div className={socialStyles.icons}>
                 <div className={socialStyles.icon}>
-          <a href="https://twitter.com/home" passHref={true}>
+          <a href="https://twitter.com/home">
             <FaTwitter style={{ width: "22px", height: "22px" }} />
           </a>
           </div>
           <div className={socialStyles.icon}>
-          <a href="https://twitter.com/home" passHref={true}>
+          <a href="https://twitter.com/home">
             <FaReddit style={{ width: "22px", height: "22px" }} />
           </a>
           </div>
 
           <div className={socialStyles.icon}>
-          <a href="https://twitter.com/home" passHref={true}>
+          <a href="https://twitter.com/home">
             <FaTelegramPlane style={{ width: "22px", height: "22px" }} />
           </a>
           </div>
 
           <div className={socialStyles.icon}>
-          <a href="https://twitter.com/home" passHref={true}>
+          <a href="https://twitter.com/home">
             <FaYoutube style={{ width: "22px", height: "22px" }} />
           </a>
           </div>
 
           <div className={socialStyles.icon}>
-          <a href="https://twitter.com/home" passHref={true}>
+          <a href="https://twitter.com/home">
             <FaGithub style={{ width: "22px", height: "22px" }} />
           </a>
           </div>
 
           <div className={socialStyles.icon}>
-          <a href="https://twitter.com/home" passHref={true}>
+          <a href="https://twitter.com/home">
             <SiTiktok style={{ width: "22px", height: "22px" }} />
           </a>
           </div>

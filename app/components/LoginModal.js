@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
+import React, { useState} from "react";
 import { useToast } from "@chakra-ui/react"
 
 // Firebase Imports
@@ -15,7 +14,6 @@ import modalStyles from "../styles/AuthModal.module.css";
 
 // Icon Imports
 import { GrClose } from "react-icons/gr";
-import { FaCookie } from "react-icons/fa";
 
 // Material UI For Backdrop
 // Slight UI bug when closing modal for login...
@@ -78,7 +76,7 @@ const AuthModal = ({ modalOpen, setModalOpen }) => {
           </div>
           <div className={modalStyles.formContainer}>
             <form>
-              <label for="email" className={modalStyles.label}>
+              <label htmlFor="email" className={modalStyles.label}>
                 <input
                   type="text"
                   name="email"
@@ -90,7 +88,7 @@ const AuthModal = ({ modalOpen, setModalOpen }) => {
                 <span className={modalStyles.placeholder}>Email</span>
               </label>
 
-              <label for="password" className={modalStyles.label}>
+              <label htmlFor="password" className={modalStyles.label}>
                 <input
                   autoComplete="off"
                   type="password"
