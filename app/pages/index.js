@@ -68,7 +68,7 @@ export default function Home() {
                     height: "18px",
                     width: "18px",
                     marginLeft: "10px",
-                    position: "absolute",
+                    
                   }}
                 />
               </button>
