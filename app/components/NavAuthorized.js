@@ -56,7 +56,7 @@ const Nav = () => {
             <button onClick={() => {
               handleDashLink()
             }}>
-              {`User ID: ${ user ? user.uid : 'No user signed in'}`}
+              Dashboard
             </button>
           </div>
 
