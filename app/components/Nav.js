@@ -15,10 +15,11 @@ const Nav = () => {
   return (
     <>
       <div className={navStyles.container}>
+      <Burger open={open} setOpen={setOpen} />
         <div className={navStyles.title}>{/* <h1>ChainSoul</h1> */}</div>
 
         <nav className={navStyles.nav}>
-          <Burger open={open} setOpen={setOpen} />
+          
           <Menu open={open} setOpen={setOpen} />
           <AuthModal modalOpen={modalOpen} setModalOpen={setModalOpen} />
           <div className={navStyles.buttonContainer}>
